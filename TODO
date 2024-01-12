@@ -1,0 +1,5 @@
+--todo
+implementar el jueguito en js dentro del navegador del cliente
+
+boton save que guarde el estado con htmx
+boton load que lo cargue
