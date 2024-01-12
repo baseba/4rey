@@ -4,6 +4,7 @@ implementar el jueguito en js dentro del navegador del cliente
 boton save que guarde el estado con htmx
 boton load que lo cargue
 
+agregar publicidad para esos ricos dollars
 
 
 databse :gameID uuiid o algo asi y deck string nomas
