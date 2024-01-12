@@ -20,13 +20,16 @@ templ Show() {
             </div>
             <div class="p-12 grid">
                 <div class="flex items-center justify-center">
-                    <img src="/static/cards/PNG/white/Clovers_2_white.png" alt="Card Image" class="w-auto h-auto object-cover rounded-lg" width="100" height="100" style="" />
+                    <img class="min-w-[450px]" src="/static/cards/PNG/white/JkrRed.png" onclick="setCardImage(this)" id="card-image" alt="Card Image" class="w-auto h-auto object-cover rounded-lg" width="100" height="100" style="" />
                 </div>
                 <div class="text-center">
+                    <h3 class="text-xl text-gray-500 p-6 font-semibold">
+                        Click en la carta para obtener la siguiente
+                    </h3>
                     <h3 class="text-5xl p-6 font-semibold">
                         Card Name
                     </h3>
-                    <p class="text-4xl p-6 text-gray-500 ">
+                    <p class="text-4xl p-6 text-gray-700 ">
                         Card Description
                     </p>
                 </div>

@@ -3,3 +3,9 @@ implementar el jueguito en js dentro del navegador del cliente
 
 boton save que guarde el estado con htmx
 boton load que lo cargue
+
+
+
+databse :gameID uuiid o algo asi y deck string nomas
+
+login solo para guardar partidas si no se ejecuta solo en local

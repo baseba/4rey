@@ -54,21 +54,30 @@ func Show() templ.Component {
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3></div><div class=\"p-12 grid\"><div class=\"flex items-center justify-center\"><img src=\"/static/cards/PNG/white/Clovers_2_white.png\" alt=\"Card Image\" class=\"w-auto h-auto object-cover rounded-lg\" width=\"100\" height=\"100\" style=\"\"></div><div class=\"text-center\"><h3 class=\"text-5xl p-6 font-semibold\">")
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3></div><div class=\"p-12 grid\"><div class=\"flex items-center justify-center\"><img class=\"min-w-[450px]\" src=\"/static/cards/PNG/white/JkrRed.png\" onclick=\"setCardImage(this)\" id=\"card-image\" alt=\"Card Image\" class=\"w-auto h-auto object-cover rounded-lg\" width=\"100\" height=\"100\" style=\"\"></div><div class=\"text-center\"><h3 class=\"text-xl text-gray-500 p-6 font-semibold\">")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			templ_7745c5c3_Var5 := `Card Name`
+			templ_7745c5c3_Var5 := `Click en la carta para obtener la siguiente`
 			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var5)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3><p class=\"text-4xl p-6 text-gray-500 \">")
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3><h3 class=\"text-5xl p-6 font-semibold\">")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			templ_7745c5c3_Var6 := `Card Description`
+			templ_7745c5c3_Var6 := `Card Name`
 			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var6)
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3><p class=\"text-4xl p-6 text-gray-700 \">")
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
+			templ_7745c5c3_Var7 := `Card Description`
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var7)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
@@ -76,8 +85,8 @@ func Show() templ.Component {
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			templ_7745c5c3_Var7 := `Next Card`
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var7)
+			templ_7745c5c3_Var8 := `Next Card`
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var8)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
