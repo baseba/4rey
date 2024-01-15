@@ -85,7 +85,7 @@ function setCardImage(image) {
     // event.preventDefault();
     if (image !== null) {
         const card = drawCard()
-        image.src = `/static/cards/PNG/white/${card.name}_white.png`
+        image.src = `https://4rey.s3.amazonaws.com/assets/cards/PNG/white/${card.name}_white.png`
         const rule = document.getElementById("rule")
         console.log(rule.innerHTML);
         rule.innerHTML = s.get(card.value);
