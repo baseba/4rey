@@ -54,7 +54,7 @@ func Show() templ.Component {
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3></div><div class=\"p-12 grid\"><div class=\"flex items-center justify-center\"><img class=\"min-w-[600px]\" src=\"/static/cards/PNG/white/JkrRed.png\" onclick=\"setCardImage(this)\" id=\"card-image\" alt=\"Card Image\" class=\"w-auto h-auto object-cover rounded-lg\" width=\"100\" height=\"100\" style=\"\"></div><div class=\"text-center\"><h3 class=\"text-xl text-gray-500 p-6 font-semibold\">")
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</h3></div><div class=\"p-12 grid\"><div class=\"flex items-center justify-center\"><img class=\"min-w-[600px]\" src=\"https://4rey.s3.amazonaws.com/assets/cards/PNG/white/JkrRed.png\" onclick=\"setCardImage(this)\" id=\"card-image\" alt=\"Card Image\" class=\"w-auto h-auto object-cover rounded-lg\" width=\"100\" height=\"100\" style=\"\"></div><div class=\"text-center\"><h3 class=\"text-xl text-gray-500 p-6 font-semibold\">")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
