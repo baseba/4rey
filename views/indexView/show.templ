@@ -1,10 +1,11 @@
 package indexView
 
 
+
 import (
     "4rey/views/layout"
     )
-templ Show() {
+templ Show(user string) {
     @layout.Base(){
         <!--
 // v0 by Vercel.
@@ -16,6 +17,7 @@ templ Show() {
             <div class="flex flex-col space-y-1.5 p-6">
                 <h3 class="tracking-tight text-8xl font-bold text-center">
                     Cuarto de Rey
+                    { user }
                 </h3>
             </div>
             <div class="p-12 grid">
@@ -34,9 +36,9 @@ templ Show() {
                     </p>
                 </div>
                 <div class="flex items-center justify-center">
-                    <button hx-post="/login" class="inline-flex items-center justify-center rounded-md text-2xl font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-500 text-primary-foreground hover:bg-primary/90 h-10 p-10">
+                    <a href="/auth?provider=auth0" class="inline-flex items-center justify-center rounded-md text-2xl font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-500 text-primary-foreground hover:bg-primary/90 h-10 p-10">
                         Proximamente: Inicia sesion para jugar con reglas personalizadas y guardar partidas
-                    </button>
+                    </a>
                 </div>
             </div>
             <script src="/static/game.js"></script>

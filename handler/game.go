@@ -49,8 +49,8 @@ type GameHandler struct {
 	Deck []card
 }
 
-func (h GameHandler) HandleGameShow(c echo.Context) error {
-	return render(c, indexView.Show())
+func (h GameHandler) HandleGameShow(c echo.Context, user string) error {
+	return render(c, indexView.Show(user))
 }
 
 func (h GameHandler) HandleGamePlay(c echo.Context) string {
